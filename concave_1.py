@@ -1,4 +1,4 @@
-```py
+
 from scipy import optimize
 from manim import *
 
@@ -39,4 +39,4 @@ class optics(Scene):
                                  lag_ratio=0),run_time=3)
                                  
         self.play(AnimationGroup(*[Create(reflection) for reflection in reflections],
-                                 lag_ratio=0), run_time=3)```
+                                 lag_ratio=0), run_time=3)
